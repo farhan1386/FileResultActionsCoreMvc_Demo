@@ -35,7 +35,7 @@ namespace FileResultActionsCoreMvc_Demo.Controllers
             var stream = new MemoryStream(Encoding.ASCII.GetBytes("Hello World"));
             return new FileStreamResult(stream, new MediaTypeHeaderValue("text/plain"))
             {
-                FileDownloadName = "test.txt"
+                FileDownloadName = "HelloWorldText.txt"
             };
         }
         public VirtualFileResult VirtualFileResult()
