@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h3 class="text-center text-uppercase">FileResult Action in core mvc</h3>
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item"><a asp-action="DownloadFile" asp-controller="Home">File Result</a></li>
+    <li class="list-group-item"><a asp-action="DownloadContent" asp-controller="Home" target="_blank">File Content Result</a></li>
+    <li class="list-group-item"><a asp-action="CreateFile" asp-controller="Home">File Stream Result</a></li>
+    <li class="list-group-item"><a asp-action="VirtualFileResult" asp-controller="Home" target="_blank">Virtual File Result</a></li>
+    <li class="list-group-item"><a asp-action="PhysicalFileResult" asp-controller="Home" target="_blank">Physical File Result</a></li>
+</ul>
